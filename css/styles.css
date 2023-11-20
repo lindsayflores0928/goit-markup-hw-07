@@ -103,7 +103,7 @@ body
     padding: 120px 0;
 }
 
-.no-top-padding
+.padding
 {
     padding-top: 0;
 }
@@ -529,7 +529,7 @@ body
 }
 
 /* Section Three */
-.section-three
+.team
 {
     background-color: var(--Cloud);
 }
@@ -573,7 +573,7 @@ body
 }
 
 /* Section Four */
-.section-four
+.customers
 {
     background-color: var(--White);
 }

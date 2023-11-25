@@ -684,6 +684,23 @@ body
     padding: 64px 0;
 }
 
+/*.project-list {
+    Width:  360px;
+    height: 420px;
+}*/
+
+.box1,
+.box2,
+.box3 {
+    display: flex;
+    Width: 1128px;
+    Height: 420px;
+    Top: 1228px;
+    Left: 156px;
+    Border: 1px;
+    gap: 8px;
+}
+
 .filter-list
 {
     display: flex;
@@ -867,6 +884,11 @@ body
 
 @media (max-width: 767px)
 {
+
+    .what {
+        display: none;
+    }
+
     .container
     {
         max-width: 428px;
